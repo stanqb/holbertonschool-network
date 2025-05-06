@@ -1,54 +1,44 @@
-# Network Basics
+# Networking Projects
 
-This project covers fundamental concepts of computer networking, focusing on the OSI model, network types, protocols, and basic networking tools.
+This repository contains projects focused on computer networking fundamentals and practices. It serves as a comprehensive learning resource for understanding network architecture, protocols, and implementation.
 
-## Learning Objectives
+## General Learning Objectives
 
-By the end of this project, you will be able to explain:
+Across the projects in this repository, you will learn about:
 
-### OSI Model
-- What it is and its purpose
-- The seven layers and how they're organized
-- Practical applications of the model
+- Network architecture models and their practical applications
+- Different types of networks and their characteristics
+- Internet protocols and addressing systems
+- Network security fundamentals
+- Troubleshooting and network analysis techniques
 
-### Network Types
-- LAN (Local Area Network): usage and typical size
-- WAN (Wide Area Network): usage and typical size
-- Internet fundamentals
+## Projects Structure
 
-### IP Addressing
-- IP address concept and function
-- IPv4 vs IPv6 addressing
-- Localhost and subnets
+Each project folder contains:
+- Task files with specific implementations or answers
+- Scripts for network analysis and troubleshooting
+- Documentation explaining concepts and approaches
 
-### TCP/UDP Protocols
-- Differences between TCP and UDP
-- Common ports (SSH: 22, HTTP: 80, HTTPS: 443)
-- When to use each protocol
+## Technical Requirements
 
-### Networking Tools
-- Network connectivity testing
-- Port listening and analysis
+For all projects in this repository:
+- Bash scripts must use `#!/usr/bin/env bash` as the first line
+- All scripts must include a comment explaining their purpose
+- Files must end with a new line
+- All scripts must be executable and pass shellcheck validation
+- Each project contains its own README with specific requirements
 
-## Project Requirements
+## Getting Started
 
-- All Bash scripts must be executable and pass shellcheck
-- Scripts must start with `#!/usr/bin/env bash`
-- Scripts must include a comment explaining their function
-- Files should end with a new line
-- Projects must include this README.md
+1. Clone this repository
+2. Navigate to the specific project directory
+3. Read the project's README.md for detailed instructions
+4. Complete the tasks and test your implementations
 
-## Tasks Overview
+## Resources
 
-0. OSI model conceptual understanding
-1. Network types identification
-2. MAC and IP address concepts
-3. TCP and UDP protocol comparison
-4. Creating a script to display TCP/UDP listening ports
-5. Creating a script to test network connectivity via ICMP
+Additional resources for learning networking concepts can be found in each project's README file.
 
-## Repository Structure
+## License
 
-- GitHub repository: `holbertonschool-network`
-- Project directory: `basics_0`
-- Task files: `0-OSI_model`, `1-types_of_network`, etc.
+This project is created for educational purposes / Holberton School.
